@@ -127,6 +127,11 @@ function Home() {
         </div>
   
       </section>
+      <section className='container-fluid bg-primary bg-gradient mt-4 d-flex flex-column justify-content-center align-items-center' style={{minHeight: "180px"}}>
+      <i className="fa-solid fa-location-dot fs-1 text-warning my-3"></i>
+        <h3 className='text-white text-uppercase'>We have a wide variety of posts</h3>
+        <button className='btn btn-warning my-4 fw-bold text-uppercase'>View Posts</button>
+      </section>
       <section className='our-portfolio'>
       <h3 className='text-center text-uppercase py-4'>Our Portfolio</h3>
       <div className="container">
